@@ -1,0 +1,15 @@
+.expand {
+  z-index: 2;
+}
+.top-expand {
+  z-index: 2;
+  /*position: absolute;*/
+}
+
+.flip {
+  transform: scale(7);
+  z-index: 2;
+}
+
+.center {
+}
