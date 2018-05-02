@@ -2,15 +2,17 @@ body {
   background-color: #424243;
   margin: 0;
   display: flex;
-  justify-content: space-around;
-  align-items: center;
+  justify-content: center;
+  align-items: flex-start;
   overflow: hidden;
+  flex-direction: column;
+  padding: 0px 70px;
 }
 
 .card-select {
   display: flex;
   flex-wrap: wrap;
-  padding:50px 70px;
+  padding: 50px 0px 50px 0px;
   justify-content: center;
   perspective: 1400px;
 }
@@ -56,6 +58,7 @@ body {
 }
 
 .front-text {
+  max-width: calc(100% - 70px);
   display: inline-block;
   position: absolute;
 }
